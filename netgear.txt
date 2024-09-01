@@ -1,0 +1,12 @@
+! from https://www.netgear.com/hub/technology/router-login-page/
+! disallow variants
+||*r[oO0]uter[i1lt][oO0]g[i1ltoO0]n.*^
+||*[oO0]rb[il1t][i1lt][oO0]g[i1ltoO0]n.*^
+||*n[i1lt]gh[i1lt]hawk-app.*^
+! allow (routerlogin|orbilogin|nighthawk-app).(com|net)
+@@||routerlogin.com^
+@@||routerlogin.net^
+@@||orbilogin.com^
+@@||orbilogin.net^
+@@||nighthawk-app.com^
+@@||nighthawk-app.net^
